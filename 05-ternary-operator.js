@@ -15,7 +15,7 @@ console.log(`Given string is: Web developer smart and it's length square is:${re
 
 function stringOperation(givenString) {
     var strLength = givenString.length;
-    var words = givenString.split(" "); // Split by spaces to get words
+    var words = givenString.split(" "); 
     var totalWords = words.length;
 
     if (totalWords === 0) {
