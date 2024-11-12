@@ -14,7 +14,7 @@ console.log(`odd number count is : ${oddNumCount}`);
 
 console.log('===WAP to count the vowels including lower and upper case===')
 let myLove = 'I Love only JavaScript';
-const vowels = "aeiou";
+const vowels = " aeiou ";
 let counterVowels =0;
 for (const char of myLove) {   
     if (vowels.includes (char.toLowerCase())) {
