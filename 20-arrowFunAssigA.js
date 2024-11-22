@@ -22,10 +22,14 @@ mul(10, 2);
 console.log(`=====5 args and return value===== `);
 
 let sum = (s1, s2, s3, s4, s5) =>{
-    let sumetion = s1 + s2 + s3 + s4 + s5;
-    console.log(`Addition of :${sumetion}`);
+    let summation = s1 + s2 + s3 + s4 + s5;
+    console.log(`Addition of :${summation}`);
 }
 sum(100, 100, 200,349, 756);
 
+let arrow_fun =() => {
+    console.log("I am","learning","ES6",'features',"in depth")
+}
+arrow_fun();
 
 
