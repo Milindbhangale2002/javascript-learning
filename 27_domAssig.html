@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML & JavaScript are crucial technologies</h1>
+            <P>The web would not work without them...</P>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li id="secondli">Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        //Your solution code goes here
+        console.log(`====================queryselector()Name selector=====================`);
+        const mainHeading = document.querySelector("h1");
+        console.log(mainHeading);
+        console.log(`====================queryselector()id selector=====================`);
+        const secondAdvantage = document.querySelector("#secondli");
+        console.log(secondAdvantage);
+        console.log(`====================queryselector()id selector=====================`);
+        const advDiv = document.querySelector("#advantages");
+        console.log(advDiv);
+    </script>
+</body>
+</html>
